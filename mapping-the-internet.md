@@ -1,11 +1,6 @@
-[]() Lab 11: Mapping out (small parts of) the Internet
-------------------------------------------------------
+# Lab 11: Mapping out (small parts of) the Internet
 
-[![wombats.png](rsrc/UMMCSci/CSci3401f13/Lab11TraceRouteAndNetworkArchitecture/wombats.png){width="40%"}](rsrc/UMMCSci/CSci3401f13/Lab11TraceRouteAndNetworkArchitecture/wombats.png)
-
-[]()
-
-<div class="foswikiToc">
+[![sample map](maps/sample-map.png)](maps/sample.png)
 
 -   [Lab 11: Mapping out (small parts of) the
     Internet](#Lab_11_Mapping_out_small_parts_o)
@@ -18,12 +13,10 @@
 -   [Sharing your results](#Sharing_your_results)
 -   [Groups and results](#Groups_and_results)
 
-</div>
 
-[]() Background
----------------
+## Background
 
-Since this is a short week due to Thanksgiving, my plan is for this lab
+Since this is a short week at the end of the semester, my plan is for this lab
 to be self-contained, and hopefully a bit of fun. What we're going to do
 is use the `traceroute` command and the `dot` graph drawing tool (part
 of the [graphiv package](http://www.graphviz.org/)) to map out some
@@ -38,8 +31,7 @@ And you should check out [this cool xkcd comic](http://xkcd.com/195/)
 which shows the allocation of top level domains as of 2006. The U.S. has
 a *lot* of IP addresses...
 
-[]() traceroute
----------------
+## `traceroute`
 
 The `traceroute` command takes a destination hostname or an IP address
 as an argument, and attempts to infer the route packets take from your
@@ -85,8 +77,7 @@ boxes in steps 3-9 below show up as just '\*'s.
     29  * * *
     30  * * *
 
-[]() DOT/Graphiv
-----------------
+## DOT/Graphiv
 
 [Graphiv](http://www.graphviz.org/) is a very cool set of tools for
 generating graphs described in a simple text format. As a very simple
@@ -117,8 +108,7 @@ PDF ( *not* PNG) is probably the most sensible choice. PDF will scale up
 and down better for zooming in, and the generated PDF files for large
 graphs are *much* smaller than the generated PNG files.
 
-[]() Run traceroute on several different destinations
------------------------------------------------------
+## Run traceroute on several different destinations
 
 We'd like to explore as many different routings as possible, so we want
 to run routes to as many different places as possible. Each group is
@@ -143,8 +133,7 @@ Run `traceroute` on several different destinations and go through the
 output. Feel free to ask questions and point out interesting tidbits
 that you discover!
 
-[]() Generating graphs
-----------------------
+## Generating graphs
 
 Given the output of `traceroute` and the format of DOT files, it's a
 fairly straightforward (if somewhat tedious) task to convert the
@@ -164,8 +153,7 @@ it generates, i.e.,
 
        dot -Tpdf -o network_graph.pdf network_graph.dot
 
-Look over the resulting graph. Again, ask questions and share cool stuff
-![smile](rsrc/System/SmiliesPlugin/smile.gif "smile")
+Look over the resulting graph. Again, ask questions and share cool stuff. :sunglasses:
 
 You should also look at the DOT file that the script generates, which
 might look something like this:
@@ -230,8 +218,7 @@ A few things to note:
         different groups, and with very little effort generate one big
         DOT file that will make a really nifty, big graph :-).
 
-[]() Sharing your results
--------------------------
+## Sharing your results
 
 -   Clone (***do not fork!***) the lab Github repo:
     <https://github.com/UMM-CSci-3401-F13/Mapping-the-Internet>
@@ -251,12 +238,7 @@ A few things to note:
         clone and commit and push that, or you can edit the README
         directly on Github via their web interface.
 
-[]() Groups and results
------------------------
-
--   Paul and Lincoln - AGPA
--   Gabe - JustGabe?
--   Ian B and Geoff- GIeaonfBf?
+## Groups and results
 
 I'll let you self-assemble today in groups of no more than two people.
 Remember to list your group and which domains you traced routes to in
@@ -266,40 +248,3 @@ the repo README file.
 -- Main.lamberty - 27 Nov 2012\
 -- [JohnMcCall](../../Main/JohnMcCall.html) - 06 Nov 2013\
 -- [NicMcPhee](../../Main/NicMcPhee.html) - 21 Nov 2013
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-<div class="foswikiAttachments">
-
-<div class="twistyPlugin foswikiMakeVisibleInline">
-
-<span id="topicattachmentslist2show"
-class="twistyRememberSetting twistyTrigger foswikiUnvisited twistyHidden twistyInited">[<span
-class="foswikiLinkLabel foswikiUnvisited foswikiButton patternTwistyButton"></span>](#)</span>
-### ► Attachments {#attachments .patternAttachmentHeader}
-
-<span id="topicattachmentslist2hide"
-class="twistyRememberSetting twistyTrigger foswikiUnvisited twistyHidden twistyInited">[<span
-class="foswikiLinkLabel foswikiUnvisited foswikiButton patternTwistyButton"></span>](#)</span>
-### ▼ Attachments {#attachments-1 .patternAttachmentHeader}
-
-</div>
-
-<div class="twistyPlugin">
-
-<div id="topicattachmentslist2toggle"
-class="twistyRememberSetting twistyContent foswikiMakeHidden twistyInited">
-
-  [I](../../bin/rest/PublishPlugin/publish.html#sorted_table "Sort by this column")                            [Attachment](../../bin/rest/PublishPlugin/publish.html#sorted_table "Sort by this column")   [Action](../../bin/rest/PublishPlugin/publish.html#sorted_table "Sort by this column")                                                            [Size](../../bin/rest/PublishPlugin/publish.html#sorted_table "Sort by this column")   [Date](../../bin/rest/PublishPlugin/publish.html#sorted_table "Sort by this column")   [Who](../../bin/rest/PublishPlugin/publish.html#sorted_table "Sort by this column")   [Comment](../../bin/rest/PublishPlugin/publish.html#sorted_table "Sort by this column")
-  ------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------
-  ![png](rsrc/System/DocumentGraphics/png.gif){width="16" height="16"}<span class="foswikiHidden">png</span>   [wombats.png](rsrc/UMMCSci/CSci3401f13/Lab11TraceRouteAndNetworkArchitecture/wombats.png)    [manage](../../bin/attach/UMMCSci/CSci3401f13/Lab11TraceRouteAndNetworkArchitecture.html "change, update, previous revisions, move, delete...")   739.1 K                                                                                <span class="foswikiNoBreak">06 Nov 2013 - 16:44</span>                                [JohnMcCall](../../Main/JohnMcCall.html)                                              A sample DOT map of a small part of the Internet
-
-  : Topic attachments
-
-</div>
-
-</div>
-
-</div>
