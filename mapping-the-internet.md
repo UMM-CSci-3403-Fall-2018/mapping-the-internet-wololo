@@ -2,16 +2,14 @@
 
 <a href="maps/sample-map.png"><img src="maps/sample-map.png" width="40%" align="right"></a>
 
--   [Lab 11: Mapping out (small parts of) the
-    Internet](#Lab_11_Mapping_out_small_parts_o)
--   [Background](#Background)
--   [traceroute](#traceroute)
--   [DOT/Graphiv](#DOT_Graphiv)
+-   [Background](#background)
+-   [traceroute](#-traceroute-)
+-   [DOT/Graphiv](#dot-graphiv)
 -   [Run traceroute on several different
-    destinations](#Run_traceroute_on_several_differ)
--   [Generating graphs](#Generating_graphs)
--   [Sharing your results](#Sharing_your_results)
--   [Groups and results](#Groups_and_results)
+    destinations](#run-traceroute-on-several-different-destinations)
+-   [Generating graphs](#generating-graphs)
+-   [Sharing your results](#sharing-your-results)
+-   [Groups and results](#groups-and-results)
 
 
 ## Background
