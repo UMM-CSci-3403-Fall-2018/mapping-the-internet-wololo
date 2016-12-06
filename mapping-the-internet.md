@@ -6,7 +6,7 @@
 -   [traceroute](#-traceroute-)
 -   [DOT/Graphiv](#dot-graphiv)
 -   [Run traceroute on several different
-    destinations](#run-traceroute-on-several-different-destinations)
+    destinations](#run--traceroute--on-several-different-destinations)
 -   [Generating graphs](#generating-graphs)
 -   [Sharing your results](#sharing-your-results)
 -   [Groups and results](#groups-and-results)
@@ -14,27 +14,31 @@
 
 ## Background
 
-Since this is a short week at the end of the semester, my plan is for this lab
-to be self-contained, and hopefully a bit of fun. What we're going to do
+This is a short, self-contained lab that can be a bit of fun when we need
+to fill in a day somewhere. We're going to
 is use the `traceroute` command and the `dot` graph drawing tool (part
 of the [graphiv package](http://www.graphviz.org/)) to map out some
-sections of the Internet as it is visible to us here in the lab. Your
-task is to run `traceroute` on several different target hosts around the
+sections of the Internet as it is visible to us from where we're doing
+the lab; if you did this from different places you'd see different results.
+Your task is to run `traceroute` on several different target hosts around the
 world, which exposes a few (a tiny subset, actually) of the routing
 paths that exist on the Internet. You'll then massage those results into
 a format that you can feed the DOT tool, and DOT can draw pretty graphs
-(such as the one on the right).
+(such as the one on at the top of this write-up; click on it to see it
+larger).
 
 And you should check out [this cool xkcd comic](http://xkcd.com/195/)
-which shows the allocation of top level domains as of 2006. The U.S. has
+which shows the allocation of top level domains as of 2006 (which is
+  obviously a bit out of date now). The U.S. has
 a *lot* of IP addresses...
 
 ## `traceroute`
 
 The `traceroute` command takes a destination hostname or an IP address
-as an argument, and attempts to infer the route packets take from your
+as an argument, and attempts to infer the route that network packets
+take from your
 computer to the specified destination. As an example, below is the
-result of running `traceroute` from one of the lab machines to mit.edu.
+result of running `traceroute` from one of the lab machines to `mit.edu`.
 The first 13 steps are the "standard" route from UMM to the connection
 to the "rest of the world" on the Twin Cities campus. From there we see
 the (less predictable) results of routing from there to our destination.
@@ -89,24 +93,24 @@ example, consider the following input file `example.dot`:
        B -> E;
     }
 
-Running `dot -Tpng example.dot -o example.png` will then generate the
-graph below.
+Running `dot -Tpng examples/dot-example.dot -o dot-example.png` will
+then generate the graph below.
 
-![Simple example DOT
-graph](rsrc/UmmCSci3401f09/LabEleven/example.png){width="252"
-height="251"}
+![Simple example DOT graph](examples/dot-example.png)
 
 In the example file the line `digraph example` tells DOT that you're
-making a *directed* graph named "example". (The name doesn't really
-matter much.) The lines below are all directed edges from the label on
-the left to the label on the right. In the command the flag `-Tpng`
+making a *directed* graph (`digraph`) named "dot-example". (The name
+doesn't really matter much.) Most of the remaining lines specify that
+there are directed edges from the label on
+the left to the label on the right. In the `dot` command the flag `-Tpng`
 tells DOT to write out in PNG format. DOT knows a number of graphics
 formats, and for *big* graphics (like the ones we'll be generating here)
 PDF ( *not* PNG) is probably the most sensible choice. PDF will scale up
 and down better for zooming in, and the generated PDF files for large
-graphs are *much* smaller than the generated PNG files.
+graphs are *much* smaller than the generated PNG files. (We've used PNG
+instead of PDF here because PNGs embed in web pages and PDFs typically don't.)
 
-## Run traceroute on several different destinations
+## Run `traceroute` on several different destinations
 
 We'd like to explore as many different routings as possible, so we want
 to run routes to as many different places as possible. Each group is
@@ -136,10 +140,10 @@ that you discover!
 Given the output of `traceroute` and the format of DOT files, it's a
 fairly straightforward (if somewhat tedious) task to convert the
 `traceroute` output into a DOT file. Rather than have you wade through
-that, I'm providing you with a Ruby script (based on a script from a few
-years ago by Melissa Helgeson) that runs `traceroute` and generates the
-corresponding DOT file. The script is in
-`~mcphee/pub/CSci3401/TraceRouteLab/tracerouteDot.rb`. It takes one or
+that, I'm providing you with a Ruby script `scripts/traceroutDot.rb` (based on a script written by
+a student several years ago) that runs `traceroute` on a collection of
+domain names and generates a DOT file representing the links discovered
+by `traceroute`. The script takes one or
 more domain names as command line arguments, runs `traceroute` on each
 of those domains, parses the results, and generates the DOT bits. The
 output is written to `network_graph.dot`. Running the script can take a
@@ -158,7 +162,6 @@ might look something like this:
 
     digraph network {
 
-    // Dungeon -> xps1.essex.ac.uk (a computer I use in Britain)
     "Dungeon" -> "starship33.morris.umn.edu (146.57.33.254)";
     "starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)";
     "mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)" -> "172.25.0.125 (172.25.0.125)";
@@ -202,8 +205,7 @@ A few things to note:
     calling `traceroute`, so including them will make it easier for us
     to figure out what we're looking at when we combine all the results
     into a really big graph.
-    -   ![ALERT!](rsrc/System/DocumentGraphics/warning.gif "ALERT!"){width="16"
-        height="16"} Instead of using your "real" host, the script marks
+    -   :warning: Instead of using your "real" host, the script marks
         the starting node as "Dungeon". This way all the graphs will
         join up regardless of which client you're on.
 -   Comments are allowed in DOT files using either the `//` or the
@@ -214,7 +216,7 @@ A few things to note:
     leave them disconnected if they never join up.
     -   This means that we can take a bunch of different DOT files from
         different groups, and with very little effort generate one big
-        DOT file that will make a really nifty, big graph :-).
+        DOT file that will make a really nifty, big graph :smile:.
 
 ## Sharing your results
 
