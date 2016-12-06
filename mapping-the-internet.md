@@ -1,6 +1,6 @@
 # Lab 11: Mapping out (small parts of) the Internet
 
-[![sample map](maps/sample-map.png)](maps/sample.png)
+<a href="maps/sample-map.png"><img src="maps/sample-map.png" width="40%" align="right"></a>
 
 -   [Lab 11: Mapping out (small parts of) the
     Internet](#Lab_11_Mapping_out_small_parts_o)
