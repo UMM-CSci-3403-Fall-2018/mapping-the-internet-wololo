@@ -1,0 +1,173 @@
+digraph wombat {
+
+// zeus -> xps.essex.ac.uk (a computer I use in Britain)
+"zeus" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)";
+"mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)" -> "172.25.0.125 (172.25.0.125)";
+"172.25.0.125 (172.25.0.125)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.118 (172.25.0.118)";
+"172.25.0.118 (172.25.0.118)" -> "172.25.0.102 (172.25.0.102)";
+"172.25.0.102 (172.25.0.102)" -> "172.25.1.90 (172.25.1.90)";
+"172.25.1.90 (172.25.1.90)" -> "172.25.1.178 (172.25.1.178)";
+"172.25.1.178 (172.25.1.178)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-ten-2-3.northernlights.gigapop.net (146.57.252.178)";
+"telecomb-gr-01-ten-2-3.northernlights.gigapop.net (146.57.252.178)" -> "infotech-gr-01-te-2-1.northernlights.gigapop.net (146.57.252.129)";
+"infotech-gr-01-te-2-1.northernlights.gigapop.net (146.57.252.129)" -> "internet2-cic.northernlights.gigapop.net (146.57.253.54)";
+"internet2-cic.northernlights.gigapop.net (146.57.253.54)" -> "xe-0-0-0.0.rtr.wash.net.internet2.edu (64.57.28.13)";
+"xe-0-0-0.0.rtr.wash.net.internet2.edu (64.57.28.13)" -> "abilene-wash.rt1.fra.de.geant2.net (62.40.125.17)";
+"abilene-wash.rt1.fra.de.geant2.net (62.40.125.17)" -> "so-5-0-0.rt1.ams.nl.geant2.net (62.40.112.58)";
+"so-5-0-0.rt1.ams.nl.geant2.net (62.40.112.58)" -> "so-4-0-0.rt1.lon.uk.geant2.net (62.40.112.138)";
+"so-4-0-0.rt1.lon.uk.geant2.net (62.40.112.138)" -> "janet-gw.rt1.lon.uk.geant2.net (62.40.124.198)";
+"janet-gw.rt1.lon.uk.geant2.net (62.40.124.198)" -> "so-5-0-0.lond-sbr1.ja.net (146.97.33.157)";
+"so-5-0-0.lond-sbr1.ja.net (146.97.33.157)" -> "chel-rbr1.eastnet.ja.net (146.97.40.46)";
+"chel-rbr1.eastnet.ja.net (146.97.40.46)" -> "gi0-1.colc-rbr1.eastnet.ja.net (193.63.107.41)";
+"gi0-1.colc-rbr1.eastnet.ja.net (193.63.107.41)" -> "essex.site.ja.net (193.60.0.210)";
+"essex.site.ja.net (193.60.0.210)" -> "155.245.47.186 (155.245.47.186)";
+"155.245.47.186 (155.245.47.186)" -> "xps.essex.ac.uk";
+
+// zeus -> google.com
+"zeus" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)"
+"mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)" -> "172.25.0.125 (172.25.0.125)";
+"172.25.0.125 (172.25.0.125)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.118 (172.25.0.118)";
+"172.25.0.118 (172.25.0.118)" -> "172.25.0.102 (172.25.0.102)";
+"172.25.0.102 (172.25.0.102)" -> "172.25.1.90 (172.25.1.90)";
+"172.25.1.90 (172.25.1.90)" -> "172.25.1.178 (172.25.1.178)";
+"172.25.1.178 (172.25.1.178)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-ten-2-3.northernlights.gigapop.net (146.57.252.178)";
+"telecomb-gr-01-ten-2-3.northernlights.gigapop.net (146.57.252.178)" -> "infotech-gr-01-te-2-1.northernlights.gigapop.net (146.57.252.129)";
+"infotech-gr-01-te-2-1.northernlights.gigapop.net (146.57.252.129)" -> "i2cpsv4-nlg.northernlights.gigapop.net (146.57.253.10)";
+"i2cpsv4-nlg.northernlights.gigapop.net (146.57.253.10)" -> "74.125.48.105 (74.125.48.105)";
+"74.125.48.105 (74.125.48.105)" -> "216.239.46.246 (216.239.46.246)";
+"216.239.46.246 (216.239.46.246)" -> "72.14.233.116 (72.14.233.116)";
+"72.14.233.116 (72.14.233.116)" -> "209.85.250.126 (209.85.250.126)";
+"209.85.250.126 (209.85.250.126)" -> "209.85.250.126 (209.85.250.126)";
+"209.85.250.126 (209.85.250.126)" -> "64.233.174.121 (64.233.174.121)";
+"64.233.174.121 (64.233.174.121)" -> "64.233.174.129 (64.233.174.129)";
+"64.233.174.129 (64.233.174.129)" -> "72.14.232.2 (72.14.232.2)";
+"72.14.232.2 (72.14.232.2)" -> "google.com";
+
+// zeus -> mit.edu
+"zeus" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)";
+"mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)" -> "172.25.0.125 (172.25.0.125)";
+"172.25.0.125 (172.25.0.125)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.118 (172.25.0.118)";
+"172.25.0.118 (172.25.0.118)" -> "172.25.0.102 (172.25.0.102)";
+"172.25.0.102 (172.25.0.102)" -> "172.25.1.90 (172.25.1.90)";
+"172.25.1.90 (172.25.1.90)" -> "172.25.1.178 (172.25.1.178)";
+"172.25.1.178 (172.25.1.178)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-ten-2-3.northernlights.gigapop.net (146.57.252.178)";
+"telecomb-gr-01-ten-2-3.northernlights.gigapop.net (146.57.252.178)" -> "infotech-gr-01-te-2-1.northernlights.gigapop.net (146.57.252.129)";
+"infotech-gr-01-te-2-1.northernlights.gigapop.net (146.57.252.129)" -> "nlr.northernlights.gigapop.net (192.35.86.170)";
+"nlr.northernlights.gigapop.net (192.35.86.170)" -> "newy-chic-100.layer3.nlr.net (216.24.186.33)";
+"newy-chic-100.layer3.nlr.net (216.24.186.33)" -> "216.24.184.102 (216.24.184.102)";
+"216.24.184.102 (216.24.184.102)" -> "OC11-RTR-1-BACKBONE-2.MIT.EDU (18.168.1.41)";
+"OC11-RTR-1-BACKBONE-2.MIT.EDU (18.168.1.41)" -> "mit.edu"
+
+// zeus -> amazon.com
+"zeus" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)";
+"mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)" -> "172.25.0.125 (172.25.0.125)";
+"172.25.0.125 (172.25.0.125)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.118 (172.25.0.118)";
+"172.25.0.118 (172.25.0.118)" -> "172.25.0.102 (172.25.0.102)";
+"172.25.0.102 (172.25.0.102)" -> "172.25.1.90 (172.25.1.90)";
+"172.25.1.90 (172.25.1.90)" -> "172.25.1.178 (172.25.1.178)";
+"172.25.1.178 (172.25.1.178)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-ten-2-3.northernlights.gigapop.net (146.57.252.178)";
+"telecomb-gr-01-ten-2-3.northernlights.gigapop.net (146.57.252.178)" -> "amesia-gr-01-po-1.northernlights.gigapop.net (146.57.252.153)";
+"amesia-gr-01-po-1.northernlights.gigapop.net (146.57.252.153)" -> "kscymo-gr-01-po-1.northernlights.gigapop.net (146.57.252.157)";
+"kscymo-gr-01-po-1.northernlights.gigapop.net (146.57.252.157)" -> "te-1-3-433.car2.KansasCity1.Level3.net (4.53.34.41)";
+"te-1-3-433.car2.KansasCity1.Level3.net (4.53.34.41)" -> "ae-11-11.car1.KansasCity1.Level3.net (4.69.135.233)";
+"ae-11-11.car1.KansasCity1.Level3.net (4.69.135.233)" -> "ae-5-5.ebr2.Dallas1.Level3.net (4.69.135.230)";
+"ae-5-5.ebr2.Dallas1.Level3.net (4.69.135.230)" -> "ae-63-68.ebr3.Dallas1.Level3.net (4.69.146.68)";
+"ae-63-68.ebr3.Dallas1.Level3.net (4.69.146.68)" -> "ae-7.ebr3.Atlanta2.Level3.net (4.69.134.22)";
+"ae-7.ebr3.Atlanta2.Level3.net (4.69.134.22)" -> "ae-2.ebr1.Washington1.Level3.net (4.69.132.86)";
+"ae-2.ebr1.Washington1.Level3.net (4.69.132.86)" -> "ae-91-91.csw4.Washington1.Level3.net (4.69.134.142)";
+"ae-91-91.csw4.Washington1.Level3.net (4.69.134.142)" -> "ae-4-99.edge2.Washington1.Level3.net (4.68.17.209)";
+"ae-4-99.edge2.Washington1.Level3.net (4.68.17.209)" -> "72.21.199.34 (72.21.199.34)";
+"72.21.199.34 (72.21.199.34)" -> "72.21.222.143 (72.21.222.143)";
+"72.21.222.143 (72.21.222.143)" -> "amazon.com";
+
+// From our house to xps1, just to throw in a totally different route
+"Nic's house" -> "10.0.1.1 (10.0.1.1)";
+"10.0.1.1 (10.0.1.1)" -> "69-42-244-1.fedtel.stellarllc.net (69.42.244.1)";
+"69-42-244-1.fedtel.stellarllc.net (69.42.244.1)" -> "66-234-123-238.fedtel.stellarllc.net (66.234.123.238)";
+"66-234-123-238.fedtel.stellarllc.net (66.234.123.238)" -> "66-234-123-234.fedtel.stellarllc.net (66.234.123.234)";
+"66-234-123-234.fedtel.stellarllc.net (66.234.123.234)" -> "69-42-239-190.rrt.stellarllc.net (69.42.239.190)";
+"69-42-239-190.rrt.stellarllc.net (69.42.239.190)" -> "7609-2-stellar.core.gig-e.702communications.com (65.183.229.229)";
+"7609-2-stellar.core.gig-e.702communications.com (65.183.229.229)" -> "702communications.com (65.183.242.225)";
+"702communications.com (65.183.242.225)" -> "gi1-11.ccr01.msp01.atlas.cogentco.com (38.104.196.49)";
+"gi1-11.ccr01.msp01.atlas.cogentco.com (38.104.196.49)" -> "te9-5.ccr02.ord01.atlas.cogentco.com (154.54.25.194)";
+"te9-5.ccr02.ord01.atlas.cogentco.com (154.54.25.194)" -> "te4-4.ccr02.jfk02.atlas.cogentco.com (154.54.29.154)";
+"te4-4.ccr02.jfk02.atlas.cogentco.com (154.54.29.154)" -> "te2-4.mpd02.lon01.atlas.cogentco.com (130.117.0.45)";
+"te2-4.mpd02.lon01.atlas.cogentco.com (130.117.0.45)" -> "195.66.226.25 (195.66.226.25)";
+"195.66.226.25 (195.66.226.25)" -> "ae1.lond-sbr4.ja.net (146.97.35.181)";
+"ae1.lond-sbr4.ja.net (146.97.35.181)" -> "so-6-0-0.lond-sbr1.ja.net (146.97.33.153)";
+"so-6-0-0.lond-sbr1.ja.net (146.97.33.153)" -> "chel-rbr1.eastnet.ja.net (146.97.40.46)";
+"chel-rbr1.eastnet.ja.net (146.97.40.46)" -> "gi0-1.colc-rbr1.eastnet.ja.net (193.63.107.41)";
+"gi0-1.colc-rbr1.eastnet.ja.net (193.63.107.41)" -> "essex.site.ja.net (193.60.0.210)";
+"essex.site.ja.net (193.60.0.210)" -> "155.245.47.186 (155.245.47.186)";
+"155.245.47.186 (155.245.47.186)" -> "xps.essex.ac.uk";
+
+// bcisr (another computer in the UK) to stanford.edu
+"bcisr.essex.ac.uk" -> "155.245.92.190 (155.245.92.190)";
+"155.245.92.190 (155.245.92.190)" -> "155.245.47.182 (155.245.47.182)";
+"155.245.47.182 (155.245.47.182)" -> "serlx26 (155.245.47.43)";
+"serlx26 (155.245.47.43)" -> "155.245.47.185 (155.245.47.185)";
+"155.245.47.185 (155.245.47.185)" -> "gi0-3.colc-rbr1.eastnet.ja.net (193.60.0.209)";
+"gi0-3.colc-rbr1.eastnet.ja.net (193.60.0.209)" -> "gi3-0-0.chel-rbr1.eastnet.ja.net (193.63.107.42)";
+"gi3-0-0.chel-rbr1.eastnet.ja.net (193.63.107.42)" -> "lond-sbr1.ja.net (146.97.40.45)";
+"lond-sbr1.ja.net (146.97.40.45)" -> "so-5-0-0.lond-sbr3.ja.net (146.97.33.158)";
+"so-5-0-0.lond-sbr3.ja.net (146.97.33.158)" -> "janet.rt1.lon.uk.geant2.net (62.40.124.197)";
+"janet.rt1.lon.uk.geant2.net (62.40.124.197)" -> "so-2-0-0.rt1.ams.nl.geant2.net (62.40.112.137)";
+"so-2-0-0.rt1.ams.nl.geant2.net (62.40.112.137)" -> "xe-2-3-0.102.rtr.newy32aoa.net.internet2.edu (198.32.11.50)";
+"xe-2-3-0.102.rtr.newy32aoa.net.internet2.edu (198.32.11.50)" -> "ge-3-3-0.0.wash.net.internet2.edu (64.57.28.19)";
+"ge-3-3-0.0.wash.net.internet2.edu (64.57.28.19)" -> "ge-0-3-0.10.rtr.newy32aoa.net.internet2.edu (64.57.28.6)";
+"ge-0-3-0.10.rtr.newy32aoa.net.internet2.edu (64.57.28.6)" -> "ge-4-0-0.0.rtr.hous.net.internet2.edu (64.57.28.43)";
+"ge-4-0-0.0.rtr.hous.net.internet2.edu (64.57.28.43)" -> "so-3-0-0.0.rtr.losa.net.internet2.edu (64.57.28.44)";
+"so-3-0-0.0.rtr.losa.net.internet2.edu (64.57.28.44)" -> "hpr-lax-hpr--i2-newnet.cenic.net (137.164.26.145)";
+"hpr-lax-hpr--i2-newnet.cenic.net (137.164.26.145)" -> "riv-hpr2--lax-hpr2-10g.cenic.net (137.164.25.34)";
+"riv-hpr2--lax-hpr2-10g.cenic.net (137.164.25.34)" -> "sac-hpr2--riv-hpr2-10g.cenic.net (137.164.25.45)";
+"sac-hpr2--riv-hpr2-10g.cenic.net (137.164.25.45)" -> "hpr-stan-ge--oak-hpr.cenic.net (137.164.27.158)";
+"hpr-stan-ge--oak-hpr.cenic.net (137.164.27.158)" -> "bbrb-rtr.Stanford.EDU (171.64.1.136)";
+"bbrb-rtr.Stanford.EDU (171.64.1.136)" -> "stanford.edu";
+
+// bcisr -> zeus
+"bcisr.essex.ac.uk" -> "155.245.92.190 (155.245.92.190)";
+"155.245.92.190 (155.245.92.190)" -> "155.245.47.182 (155.245.47.182)";
+"155.245.47.182 (155.245.47.182)" -> "serlx26 (155.245.47.43)";
+"serlx26 (155.245.47.43)" -> "155.245.47.185 (155.245.47.185)";
+"155.245.47.185 (155.245.47.185)" -> "gi0-3.colc-rbr1.eastnet.ja.net (193.60.0.209)";
+"gi0-3.colc-rbr1.eastnet.ja.net (193.60.0.209)" -> "gi3-0-0.chel-rbr1.eastnet.ja.net (193.63.107.42)";
+"gi3-0-0.chel-rbr1.eastnet.ja.net (193.63.107.42)" -> "lond-sbr1.ja.net (146.97.40.45)";
+"lond-sbr1.ja.net (146.97.40.45)" -> "so-5-0-0.lond-sbr3.ja.net (146.97.33.158)";
+"so-5-0-0.lond-sbr3.ja.net (146.97.33.158)" -> "janet.rt1.lon.uk.geant2.net (62.40.124.197)";
+"janet.rt1.lon.uk.geant2.net (62.40.124.197)" -> "so-2-0-0.rt1.ams.nl.geant2.net (62.40.112.137)";
+"so-2-0-0.rt1.ams.nl.geant2.net (62.40.112.137)" -> "xe-2-3-0.102.rtr.newy32aoa.net.internet2.edu (198.32.11.50)";
+"xe-2-3-0.102.rtr.newy32aoa.net.internet2.edu (198.32.11.50)" -> "ge-0-0-0.0.rtr.chic.net.internet2.edu (64.57.28.72)";
+"ge-0-0-0.0.rtr.chic.net.internet2.edu (64.57.28.72)" -> "infotech-gr-01-vl-2055.northernlights.gigapop.net (146.57.253.53)";
+"infotech-gr-01-vl-2055.northernlights.gigapop.net (146.57.253.53)" -> "infotech-br-01-ten-4-3.ggnet.umn.edu (146.57.252.173)";
+"infotech-br-01-ten-4-3.ggnet.umn.edu (146.57.252.173)" -> "192.35.86.34 (192.35.86.34)";
+"192.35.86.34 (192.35.86.34)" -> "telecomb-br-02-vlan-4000.ggnet.umn.edu (192.35.86.25)";
+"telecomb-br-02-vlan-4000.ggnet.umn.edu (192.35.86.25)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)";
+"mrs-cb-01-gi-1-26.250.ggnet.umn.edu (146.57.237.1)" -> "morris-starship-vlan-250.ggnet.umn.edu (146.57.237.2)";
+"morris-starship-vlan-250.ggnet.umn.edu (146.57.237.2)" -> "zeus.morris.umn.edu (146.57.33.152)";
+"zeus.morris.umn.edu (146.57.33.152)" -> "zeus";
+
+}
