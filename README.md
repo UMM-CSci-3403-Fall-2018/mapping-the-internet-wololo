@@ -220,11 +220,14 @@ A few things to note:
 
 ## Sharing your results
 
--   Clone (***do not fork!***) this Github repository.
+- Join the big "whole class" team on GitHub Classroom
+- Clone that shared repository
 -   Add your DOT file(s) to the `map` directory in your clone, commit,
     and push them up
     to Github. This will allow anyone who wants to see the full set to
     do a `git pull` on their clone and get all the current files.
+    -   Use filenames that aren't likely to be used by anyone else.
+        That way we avoid having to deal with any icky merge commits.
     -   :bell: Commit what you have right away, and then continue
         to commit new versions as you go. If you commit early and modify
         from there, I can start right away on building a single
@@ -236,3 +239,6 @@ A few things to note:
     -   You can either edit the `maps/Groups_and_destinations.md` file in your
         clone and commit and push that, or you can edit `maps/Groups_and_destinations.md`
         directly on Github via their web interface.
+    - Because we're all editing the same file, merge conflicts are
+      more likely here. Be careful and don't nuke someone else's work
+      as you go.
